@@ -1,5 +1,4 @@
 # implementation of card game - Memory
-#T
 
 import simplegui
 import random
@@ -23,8 +22,7 @@ def new_game():
      
 # define event handlers
 def mouseclick(pos):
-    # add game state logic here
-
+    
     global lst,exposed,CARDS_WIDTH,state,var1,var2,turns
     card=pos[0] // CARDS_WIDTH
     if state == 0:
@@ -79,6 +77,3 @@ frame.set_draw_handler(draw)
 # get things rolling
 new_game()
 frame.start()
-
-
-# Always remember to review the grading rubric
