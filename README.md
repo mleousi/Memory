@@ -1,2 +1,2 @@
 # Memory
-Memory mini game using http://www.codeskulptor.org (browser-based programming environment for Python programming language)
+Python mini game using http://www.codeskulptor.org (browser-based programming environment for Python programming language)
